@@ -9,6 +9,7 @@ if (!isset($_SESSION['login'])){
 
 require_once '../db/conexao.php';
 $p = new conexao();
+  //sim
 
 include_once('../pag.html');
 

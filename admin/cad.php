@@ -9,6 +9,7 @@ $_SESSION['unidade_digitado'] = isset($_POST['unidade']) ? $_POST['unidade'] : '
 
 include_once("../db/conexao.php");
 $p = new conexao();
+  //sim
 
 $nome_cad = addslashes($_POST['nome']);
 $ramal_cad = addslashes($_POST['ramal']);

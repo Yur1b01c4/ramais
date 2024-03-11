@@ -9,6 +9,7 @@ if (!isset($_SESSION['login'])){
 
   include_once('../pag.html');
 
+  //sim
 
 ?>
 

@@ -9,6 +9,7 @@ $dbname = "ramais";
 try{
     //Conexão com a porta
     $conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);
+  //sim
 
     //Conexão sem a porta
     //$conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);

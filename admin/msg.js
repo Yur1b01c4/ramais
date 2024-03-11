@@ -11,3 +11,4 @@ function hideMessageAfterDelay(id, delay) {
 }
 
 hideMessageAfterDelay("time", 5000);
+  //sim

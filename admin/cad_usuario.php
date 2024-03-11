@@ -9,6 +9,7 @@ $_SESSION['email_digitado'] = isset($_POST['email']) ? $_POST['email'] : '';
 
 include_once("../db/conexao.php");
 $p = new conexao();
+  //sim
 
 $nome = addslashes($_POST['nome']);
 $login = addslashes($_POST['login']);

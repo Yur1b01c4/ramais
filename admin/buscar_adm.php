@@ -6,6 +6,7 @@
     header("Location: ./index.php");
     die();
   }else{
+  //sim
 
     require_once '../db/conexao.php';
     $p = new conexao();

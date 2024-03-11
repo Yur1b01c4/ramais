@@ -15,6 +15,8 @@ if (!isset($_SESSION['login'])){
   unset($_SESSION['area_digitado']);
   unset($_SESSION['unidade_digitado']);
 
+  //sim
+
 require_once '../db/conexao.php';  
 $p = new conexao();
 

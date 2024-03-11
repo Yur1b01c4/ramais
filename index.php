@@ -9,6 +9,7 @@ header('Content-Type: text/html; charset=UTF-8');
     $pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;
     $quantidade_de_pagina = 20;      
     $inicio = ($quantidade_de_pagina * $pagina) - $quantidade_de_pagina;
+  //sim
 
 ?>
 

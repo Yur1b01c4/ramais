@@ -9,6 +9,7 @@ if (!isset($_SESSION)) { session_start(); };
 
 include_once("../db/conexao.php");
 $p = new conexao("intranet","localhost","root","");
+  //sim
 
 
 $login    = addslashes($_POST['login']);

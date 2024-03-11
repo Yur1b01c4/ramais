@@ -17,6 +17,7 @@ if (!isset($_SESSION['login'])){
   $id_editar = addslashes($_GET['id_editar']);
   $res = $p->buscarDadoscontatos($id_editar);
 }
+  //sim
 
 ?>
 

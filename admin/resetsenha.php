@@ -9,6 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require '../lib/vendor/autoload.php';
 $mail = new PHPMailer(true);
+  //sim
 
 ?>
 <!DOCTYPE html>

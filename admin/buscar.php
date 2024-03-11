@@ -8,6 +8,7 @@
       header("Location: ./index.php");
       die();
     }else{
+  //sim
 
     $pagina_atual = filter_input(INPUT_GET,'pagina',FILTER_SANITIZE_NUMBER_INT);
     $pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;

@@ -10,6 +10,7 @@
 <link rel="shortcut icon" href="../img/logo-nardini.png" type="image/x-icon">   
 <meta name="theme-color" content="#712cf9">
 
+//sim
 
     <style>
 
