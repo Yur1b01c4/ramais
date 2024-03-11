@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.dark {
+  --color-primary: #2A2A2A;
+  --color-secondary: #fff;
+  --color-proton: #d3d3d3;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  transition: all 0.2s ease;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+nav {
+  font-size: 1.3rem;
+}
+
+.fa-sun{
+  color: #FF8801;
+}
+
+.fa-sun:hover{
+  color: #eb7d00;
+}
+
+.fa-moon{
+  color: #FFCC00;
+}
+
+
+.fa-moon:hover{
+  color: #e9ba00;
+}
+
+.sair{
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.voltar{
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.sino{
+  cursor: pointer;
+}
+
+#nav-mode_switch {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 28px;
+} 
+
+body.dark .border-dark {
+  border-color: #eee !important;
+}
+
+body.dark .table-bordered>:not(caption)>*>* {
+  border-width: 0 1px;
+  color: #eee;
+}
+
+body.dark #nav-mode_switch .fa-sun {
+  display: none;
+}
+
+body.dark #nav-mode_switch .fa-moon {
+  display: block;
+}
+
+#nav-mode_switch .fa-moon {
+  display: none;
+}
+
+.btn-success-primary {
+  background-color:  #05C270 !important;
+  color: #fff !important;
+}
+
+.btn-success-primary:hover {
+  background-color:  #068d53 !important;
+  color: #fff !important;
+}
+
+.btn-outline-success-primary{
+  border-color:  #05C270 !important;
+  color: #eee !important;
+}
+
+.btn-outline-success-primary:hover{
+  border-color:  #068d53 !important;
+  color: #fff !important;
+}
+
+.link{
+  color: inherit;
+}
+
+.subli{
+  color: #068d53;
+}
+
+.subli:hover{
+  color: #068d53;
+}
+
+.link:hover{
+  color: #068d53;
+}
