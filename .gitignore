@@ -1,0 +1,16 @@
+# Arquivos de configuração sensíveis
+db/config.php
+.env
+
+# Pastas de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependências (se aplicável futuramente)
+node_modules/
+vendor/
+
+# Arquivos de log
+*.log
